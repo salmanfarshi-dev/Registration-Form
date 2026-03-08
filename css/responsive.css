@@ -1,0 +1,39 @@
+@media (min-width:320px) and (max-width:575.99px){
+
+section {
+    width: 100%;
+    height: 100vh;
+
+}
+.container {
+  width: 90%;
+  padding: 10px;
+}
+.input-group input::placeholder {
+    font-size: 12px;
+}
+
+.res-button {
+  padding: 10px 0;
+}
+.res-button a {
+  font-size: 14px;
+}
+.register{
+    margin-top: 13px;
+    font-size: 12px;
+}
+.divider{
+    margin: 15px 0;
+}
+
+.social-link {
+    font-size: 14px;
+    gap: 5px;
+}
+.social-link img{
+width:20px;
+height:20px;
+}
+
+}
