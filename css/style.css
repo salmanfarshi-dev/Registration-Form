@@ -26,7 +26,11 @@ section {
   background: rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   color: white;
-  border: 3px solid rgba(136, 31, 234, 0.1) ;
+  border-image: linear-gradient(to right, rgba(31, 204, 234, 0.134), rgba(0, 0, 255, 0.3)) 1;
+  border-top: 2px solid rgba(210, 234, 31, 0.15) ;
+  border-left: 2px solid rgba(80, 230, 200, 0.136) ;
+  border-bottom: 2px solid rgba(31, 204, 234, 0.134) ;
+  border-right: 2px solid  ;
   backdrop-filter: blur(10px);
 }
 .logo {
@@ -49,14 +53,14 @@ section {
   width: 100%;
   padding: 10px 0;
   border: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 0.1px solid rgba(128, 128, 128,0.5);
   background: transparent;
   color: #fff;
   outline: none;
   transition: 0.3s;
 }
 .input-group input:focus {
-  border-color: #4da6ff;
+  border-image: linear-gradient(to right, rgba(31, 204, 234, 1),rgba(0, 0, 255,1)) 1;
 }
 .input-group input::placeholder {
   opacity: 0;
@@ -134,7 +138,7 @@ transition: background-color 5000s ease-in-out 0s;
 .divider::after{
     flex: 1;
     content: "";
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid rgba(170, 170, 170);
     margin: 0 10px;
 }
 
